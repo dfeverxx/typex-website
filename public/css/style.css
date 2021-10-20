@@ -1,0 +1,109 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Roboto, sans-serif;
+	/* css variable background */
+}
+.mt-1 {
+	margin-top: 1rem;
+}
+.outermost {
+	background-color: rgb(32, 32, 32);
+}
+.nav {
+	padding: 1rem;
+}
+@media only screen and (min-width: 992px) {
+	.nav {
+		padding: 1rem 10rem;
+	}
+}
+.nav {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	height: 2.5rem;
+	margin-right: 0.5rem;
+}
+.brand-name {
+	color: white;
+}
+.brand {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+.btn-download {
+	background-color: rgb(68, 0, 255);
+	color: white;
+	height: 2.5rem;
+	border: none;
+	padding: 0rem 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mobile-warn {
+	display: flex;
+	background-color: rgb(238, 255, 3);
+	padding: 0.5rem 1rem;
+	color: rgb(2, 2, 2);
+	font-size: 0.8rem;
+	align-items: center;
+}
+.hero {
+	background-color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column-reverse;
+	padding: 1rem;
+}
+.hero-left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.banner-img {
+	margin: 1rem;
+
+	width: calc(100% - 2rem);
+	height: auto;
+}
+.privacy-text {
+	font-size: 0.8rem;
+	background-color: rgb(240, 240, 240);
+	padding: 0.8rem;
+	color: rgb(124, 124, 124);
+	width: auto;
+}
+@media only screen and (min-width: 992px) {
+	.mobile-warn {
+		display: none;
+	}
+	.banner-img {
+		width: auto;
+		margin: 1rem;
+		height: calc(80vh - 2rem);
+	}
+	.hero {
+		flex-direction: row;
+		padding: 1rem 10rem;
+	}
+	.hero-left {
+		display: flex;
+		align-items: flex-start;
+		justify-content: start;
+		flex-direction: column;
+		text-align: start;
+	}
+}
+.spacer {
+	height: 100vh;
+}
